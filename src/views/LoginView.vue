@@ -15,7 +15,7 @@
 import VueJwtDecode from "vue-jwt-decode";
 
 // 네이버 개발자센터에서 어플리케이션 등록 시 발급된 값
-const clientId = "fvgw54pWfQ9El1HFm5le";
+const clientId = "xxxxxxxxxxxxx";
 
 export default {
   components: {},
@@ -45,8 +45,7 @@ export default {
     googleInit() {
       let google = window.google;
       google.accounts.id.initialize({
-        client_id:
-          "951557522125-tam1vr5dmfljnn1lvohhlpqc3ilbhkq1.apps.googleusercontent.com",
+        client_id: "xxxxxxxxxxxxxxxx.apps.googleusercontent.com",
         callback: this.googleCallback,
       });
 

@@ -13,8 +13,8 @@ import axios from "axios";
 import router from "@/router";
 
 // 네이버 개발자센터에서 어플리케이션 등록 시 발급된 값
-const clientId = "fvgw54pWfQ9El1HFm5le";
-const clientSecret = "W3TjA7cii7";
+const clientId = "xxxxxxxxxxxx";
+const clientSecret = "xxxxxxxxxxx";
 
 export default {
   data() {

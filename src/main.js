@@ -29,4 +29,4 @@ app.use(i18nPlugin, i18nString);
 
 app.mount("#app");
 
-window.Kakao.init("a0d88b952f3da806548aa4e35d61e8e1"); // 사용하려는 앱의 JavaScript 키 입력
+window.Kakao.init("xxxxxxxxxxx"); // 사용하려는 앱의 JavaScript 키 입력

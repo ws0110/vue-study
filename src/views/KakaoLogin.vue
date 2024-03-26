@@ -20,7 +20,7 @@ const getKakaoToken = async (code) => {
   try {
     const data = {
       grant_type: "authorization_code",
-      client_id: "28b40ea7076bc0706f360b89c9e12663", // REST API 키
+      client_id: "xxxxxxxxxxxxxx", // REST API 키
       redirect_uri: "http://localhost:8080/kakaologin",
       code: code,
     };
